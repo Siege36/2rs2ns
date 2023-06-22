@@ -62,7 +62,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: pr-pages
 
-      - name: Initialize Pull Request
+      - name: Initialize Pull Requests
         uses: gha-utilities/init-pull-request@v0.0.4
         with:
           pull_request_token: ${{ secrets.GITHUB_TOKEN }}
