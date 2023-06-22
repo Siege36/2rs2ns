@@ -69,3 +69,6 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+sass:
+  sass_dir: css/scss
+  style: compressed
