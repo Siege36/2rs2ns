@@ -71,7 +71,12 @@ header {
 }
 .position {
     padding-bottom:20px;
-    .title {}
+    .title-employer {
+        padding-bottom: 5px;
+        .title {
+            font-weight: 500;            
+        }
+    }
     .date-location {
         display:grid;
         grid-template-columns: 50% 50%;
