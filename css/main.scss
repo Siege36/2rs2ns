@@ -6,16 +6,23 @@
 @import "variables";
 @import "mixins";
 
+* {
+    box-sizing: border-box;
+}
 
 .container {
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
     @include breakpoint-up(sm){
         width:540px;
     }
     @include breakpoint-up(md){
         width:720px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     @include breakpoint-up(lg){
         width:922px;
