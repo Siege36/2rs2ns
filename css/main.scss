@@ -27,12 +27,22 @@
         width:1320px;
     }
 }
-
+a {
+    color: #2EAF7D;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        color: #3FD0C9;
+    }
+}
 section {
     display:grid;
     grid-template-columns: 20% 80%;
     gap: 20px;
     padding-bottom:20px;
+    .heading {
+        font-family: 'Roboto Serif', serif;
+    }
 }    
 
 header {
@@ -52,9 +62,9 @@ header {
         a {
             font-size: 25px;
             padding: 5px;
-            color:#333333;
+            color: #2EAF7D;
             &:hover {
-                color:#000000;
+                color: #3FD0C9;
             }
         }
     }
@@ -62,7 +72,7 @@ header {
 .position {
     padding-bottom:20px;
     .title {}
-    .date-locations {
+    .date-location {
         display:grid;
         grid-template-columns: 50% 50%;
         .location { 
