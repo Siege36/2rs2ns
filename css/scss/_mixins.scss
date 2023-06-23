@@ -1,4 +1,4 @@
-@mixin for-size($size) {
+@mixin breakpoint-up($size) {
     @if $size == sm {
         @media (min-width: 576px) { @content; }
     } @else if $size == md {
