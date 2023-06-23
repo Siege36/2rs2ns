@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "reset";
+@import "normalize";
+@import "typebase";
 @import "variables";
 @import "mixins";
 
@@ -26,6 +27,7 @@
         width:1320px;
     }
 }
+
 section {
     display:grid;
     grid-template-columns: 20% 80%;
