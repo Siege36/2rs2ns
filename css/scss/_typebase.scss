@@ -79,13 +79,13 @@ h3 {
     font-size: 1 * $scale * 1rem;
 }
 h4 {
-    font-size: math.div($scale, 2) * 1rem;
+    font-size: calc($scale / 2) * 1rem;
 }
 h5 {
-    font-size: math.div($scale, 3) * 1rem;
+    font-size: calc($scale / 3) * 1rem;
 }
 h6 {
-    font-size: math.div($scale, 4) * 1rem;
+    font-size: calc($scale / 4) * 1rem;
 }
 /* Tables */
 
