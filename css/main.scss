@@ -59,3 +59,15 @@ header {
         }
     }
 }
+.position {
+    padding-bottom:20px;
+    .title {}
+    .date-locations {
+        display:grid;
+        grid-template-columns: 50% 50%;
+        .location { 
+            text-align: right;
+        }
+    }
+    .description {}
+}
