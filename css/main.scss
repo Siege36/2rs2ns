@@ -4,10 +4,22 @@
 @import "variables";
 @import "mixins";
 
-.main {
-    .container {
-        @include breakpoint-up(md){
-            width:100%;
-        }
-    }    
-}
+
+.container {
+    width:100%;
+    @include breakpoint-up(sm){
+        width:540px;
+    }
+    @include breakpoint-up(md){
+        width:720px;
+    }
+    @include breakpoint-up(lg){
+        width:960px;
+    }
+    @include breakpoint-up(xl){
+        width:1140px;
+    }
+    @include breakpoint-up(xxl){
+        width:1320px;
+    }
+}    
