@@ -76,16 +76,16 @@ h2 {
     margin-top: 2 * $leading;
 }
 h3 {
-    font-size: 1 * $scale * 1rem;
+    font-size: calc(calc(1 * $scale) * 1rem);
 }
 h4 {
-    font-size: calc($scale / 2) * 1rem;
+    font-size: calc(calc($scale / 2) * 1rem);
 }
 h5 {
-    font-size: calc($scale / 3) * 1rem;
+    font-size: calc(calc($scale / 3) * 1rem);
 }
 h6 {
-    font-size: calc($scale / 4) * 1rem;
+    font-size: calc(calc($scale / 4) * 1rem);
 }
 /* Tables */
 
@@ -97,7 +97,7 @@ table {
 td,
 th {
     padding: 0;
-    line-height: $baseLineHeight * $baseFontSize - 0px;
+    line-height: calc($baseLineHeight * $baseFontSize - 0px);
 }
 /* Code blocks */
 
@@ -108,7 +108,7 @@ code {
 /* Leading paragraph text */
 
 .lead {
-    font-size: $scale * 1rem;
+    font-size: calc($scale * 1rem);
 }
 /* Hug a the block above you */
 
