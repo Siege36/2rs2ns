@@ -37,6 +37,7 @@ section {
 header {
     padding: 40px;
     line-height: 2em;
+    text-align: center;
     .name {
         font-size: 2em;
         font-weight: 500;
@@ -48,6 +49,8 @@ header {
     .location {}
     .social-links {
         a {
+            font-size: 25px;
+            padding: 5px;
             color:#333333;
             &:hover {
                 color:#000000;
