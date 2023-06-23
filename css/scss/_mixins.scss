@@ -1,0 +1,5 @@
+@each $name, $breakpoint in $grid-breakpoints {
+    @mixin breakpoint-up($name) {
+        @media (max-width: $breakpoint) { @content }
+    }
+}
